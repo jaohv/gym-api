@@ -5,7 +5,7 @@ import { SearchGymsService } from './searchGymsService'
 let gymsRepository: InMemoryGymsRepository
 let sut: SearchGymsService
 
-describe('Fetch User Check In History Service', () => {
+describe('Search Gyms Service', () => {
 	beforeEach(async () => {
 		gymsRepository = new InMemoryGymsRepository()
 		sut = new SearchGymsService(gymsRepository)
